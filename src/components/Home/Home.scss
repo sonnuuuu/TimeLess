@@ -1,0 +1,188 @@
+.dashboard-main{
+    margin-left: 17vw;
+    padding-top: 2vh;
+    width: 60%;
+    // display: inline;
+    .dashboard-top{
+        display: flex;
+        justify-content: space-between;
+        .helloAndDate
+        {
+            width: max-content;
+            h3{
+                width: 100%;
+                font-size: x-large !important;
+            }
+            p{
+                font-weight: 300 !important;
+                opacity: 0.7;
+                width: 100%;
+                font-size: 1.8ch !important;
+            }
+        }
+    button{
+        padding: 16px 24px;
+        border-radius: 12px;
+        background: black;
+        color: white;
+        height: max-content;
+        font-weight: 450 !important;
+    }
+}
+
+    .dashboard-cards{
+        padding: 5vh 0;
+        display: flex;
+        justify-content: space-around;
+        .dashboard-card{
+            width: 25%;
+            // aspect-ratio: 1;
+            height: 20%;
+            border-radius: 10px;
+            .card-con{
+                padding-top: 5vh;
+                padding-left: 1.5vw;
+                .card-top-sec{
+                    display: flex;
+                    justify-content: space-between;
+                    h4{
+                        color: white;
+                        font-size: large !important;
+                    }
+                    svg{
+                        margin-right: 1vw;
+                    }
+                    // .buttonmodal
+                    // {
+                    //     &::after{
+                    //         content: '';
+                    //         width: 100vw;
+                    //         height: 100vh;
+                    //         top: 0px;
+                    //         left: 0px;
+                    //         position: fixed;
+                    //         z-index: 2;
+                    //         backdrop-filter: blur(5px);
+                    //     }
+                    // }
+                }
+                .card-progress{
+                    padding-top: 10%;
+                    p{
+                        color: white;
+                        padding-top: 10%;
+                        opacity: 0.5;
+                        font-weight: 400 !important;
+                        text-shadow: 0px 0px 5px rgb(0, 0, 0);
+                    }
+                    .progressout{
+                        &::before
+                        {
+                            content: '';
+                            background: black;
+                            opacity: 0.2;
+                            width: 13%;
+                            position: absolute;
+                            height: 1vh;
+                            box-shadow: 0px 0px 3px 0px rgba(128, 128, 128, 0.635);
+                            border-radius: 5px;
+                        }
+                        margin-top: 3vh;
+                        margin-bottom: 3vh;
+                        overflow: hidden;
+                        .progressin{
+                            background: white;
+                            width: 50%;
+                            height: 1vh;
+                            position: relative;
+                            // z-index: 2;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+        }
+}
+.dashboard-bottom{
+    display: flex;
+    justify-content: space-between;
+    .bottom-left{
+        display: flex;
+        gap: 3vh;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 40%;
+        h2{
+            padding-bottom: 2%;
+        }
+        .tasks-card{
+            padding-left: 5vh;
+        }
+        .task-con{
+            width: 100%;
+            padding: 8px 0px 12px 24px;
+            // background: rgb(235, 59, 59);
+            // margin-left: 3vw;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.121);
+            position: relative;
+            overflow: hidden;
+            // margin: 1% 0;
+            .radioo{
+                position: absolute;
+                right: 16px;
+                top: 16px;
+            }
+            .linee{
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                height: 100%;
+                width: 2.5%;
+                background: rgb(252, 74, 74);
+            }
+            h5{
+                font-weight: 600 !important;
+                font-size: 2ch !important;
+            }
+            p{
+                padding-top: 5%;
+                font-size: smaller !important;
+                font-weight: 400 !important;
+                opacity: 0.7;
+            }
+        }
+    }
+    .bottom-right{
+        h2{
+            padding-right: 20vw;
+        }
+        .stats-cards{
+            display: flex;
+            padding-left: 5vh;
+            width: 80%;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .stats-card{
+                margin-top: 2vw;
+                width: 40%;
+                display: block;
+                height: 15vh;
+                padding-left: 5vh;
+                background: rgba(128, 128, 128, 0.2);
+                // border: 2px dashed black;
+                box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 0.2);
+                border-radius: 8px;
+                // color: white;
+                padding: 16px 0px 8px 16px;
+                h3{
+                    padding-bottom: 1vh;
+                }
+                p{
+                    opacity: 0.6;
+                }
+            }
+        }
+    }
+}
+}

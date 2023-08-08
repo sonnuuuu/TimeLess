@@ -1,0 +1,10 @@
+.NOTFOUNDMAIN::after
+{
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    background-image: url("../../assets/images/NinjaWall.jpg");
+    filter: brightness(0.4);
+}

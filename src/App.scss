@@ -1,0 +1,13 @@
+// *::-webkit-scrollbar-thumb{
+//     display: none;
+// }
+// *::-webkit-scrollbar{
+//     display: none;
+// }
+body{
+    overflow-y: hidden;
+}
+@font-face {
+    font-family: Japanese;
+    src: url("./assets/Fonts/Japanese3017.ttf");
+}

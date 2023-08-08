@@ -1,0 +1,45 @@
+.rightbar-main{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20%;
+    height: 100%;
+    box-shadow: inset 5px 0px 5px 0px rgba(128, 128, 128, 0.07);
+    background: #fbf5ee;
+    .rightbar-con{
+        padding-left: 10%;
+        padding-top:20%;
+        .rightbar-date{
+            padding: 5vh 0;
+            font-family: sans-serif;
+            opacity: 0.6;
+            font-weight: 600;
+            font-size: small;
+        }
+        .rightbar-sec{
+            .rightbar-card{
+                display: flex;
+                gap: 3vw;
+                margin-bottom: 2vh;
+                .rightbar-card-right{
+                    height: auto;    
+                    padding-left: 8px;
+                    // background: red;
+                    border-radius: 5px;   
+                    position: relative;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    .rightbar-card-line{
+                        background: gray;
+                        width: 3%;
+                        height: 100%;
+                        margin-left: -8px;
+                        position: absolute
+                    }
+                }
+            }
+        }
+    }
+}
