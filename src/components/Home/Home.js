@@ -38,7 +38,7 @@ const Dashboard = () => {
     <div className='dashboard-main'>
       <div className="dashboard-top">
         <div className="helloAndDate">
-          <h3>Hello, {user.user.name}</h3>
+          <h3>Hello, Sonu Kumar</h3>
           <p>Today is {day}</p>
         </div>
         <button onClick={handleClick}>Add A New Project</button>

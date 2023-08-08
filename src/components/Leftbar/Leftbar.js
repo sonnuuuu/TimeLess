@@ -16,8 +16,8 @@ const Leftbar = (props) => {
                 <h6>28h</h6>
                 </div>
             </div>
-            <h3>{props.name}</h3>
-            <p>{props.email}</p>
+            <h3>Sonu Kumar</h3>
+            <p>sonnuuuu3@gmail.com</p>
         </div>
         <div className="left-navbar">
             <nav>
